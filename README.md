@@ -131,6 +131,7 @@ dragSelectionEnabled(Calendar)       | bool      | true             | whether da
 calendarFocus(Calendar)              | String    | 'forwards'       | Whether calendar focus month should be forward-driven or backwards-driven. can be 'forwards' or 'backwards'
 preventSnapRefocus(Calendar)  | bool      | false            | prevents unneceessary refocus of shown range on selection
 onPreviewChange(DateRange)           | Object    |                  | Callback function for preview changes
+showTimePicker                       | Boolean   | false            | Show a time picker when focusing on DateInputs. When set to `true`, `dateDisplayFormat` must include time formatting (e.g. `MMM d, yyyy h:mma`).
 dateDisplayFormat                    | String    | `MMM d, yyyy`    | selected range preview formatter. Check out [date-fns's format option](https://date-fns.org/docs/format)
 dayDisplayFormat                     | String    | `d`              | selected range preview formatter. Check out [date-fns's format option](https://date-fns.org/docs/format)
 weekdayDisplayFormat                 | String    | `E`              | selected range preview formatter. Check out [date-fns's format option](https://date-fns.org/docs/format)
